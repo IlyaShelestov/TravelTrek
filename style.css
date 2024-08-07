@@ -1,0 +1,117 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #04badaa4 5%, transparent 95%), url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 12px 0px;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 310px;
+}
+
+#logo h1 {
+    font-size: 40px;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: #04bada;
+    border-style: dashed;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#logo h3 {
+    font-size: 25px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+#nav {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#search {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+#search-input {
+    width: 280px;
+    font-size: 17px;
+    border: none;
+    color: black;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-cyan {
+    background-color: #019494;
+}
+
+main {
+    display: flex;
+}
+
+#social {
+    width: 10%;
+}
+
+#introduction {
+    width: 35%;
+}
+
+#recommendations {
+    width: 55%;
+}
+
+i {
+    text-decoration: underline;
+}
