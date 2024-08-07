@@ -173,12 +173,14 @@ i {
   height: 40px;
 }
 
-#about-us h1 {
+#about-us h1,
+#contact h1 {
   margin-top: 6vh;
   font-size: 80px;
 }
 
-#about-us h3 {
+#about-us h3,
+#contact h3 {
   width: 80%;
   margin-top: 5vh;
   font-size: 24px;
@@ -195,37 +197,85 @@ i {
 }
 
 #team {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #team h2 {
-    font-size: 70px;
-    width: 50px;
-    margin-right: 250px;
+  font-size: 70px;
+  width: 50px;
+  margin-right: 250px;
 }
 
 .member {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 100px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  text-align: center;
 }
 
 #team p {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .role {
-    width: 100%;
-    margin-top: 20px;
-    padding: 5px;
-    background-color: #014694;
-    border: 1px white solid;
-    border-radius: 10px;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #014694;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact,
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90%;
+  width: 100%;
+}
+
+#contact-form {
+  width: 50%;
+  margin-left: 50px;
+}
+
+#contact-form label {
+  font-weight: bold;
+  font-size: 30px;
+  color: lightgray;
+}
+
+#contact-form input {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.83);
+  height: 50px;
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+#contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.83);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  height: 40%;
+}
+
+#btn-submit {
+  font-weight: bold;
+  font-size: 20px;
 }
