@@ -100,6 +100,11 @@ nav {
 
 .btn-cyan {
   background-color: #019494;
+  transition: background-color 0.1s linear;
+}
+
+.btn-cyan:hover {
+  background-color: #59cbca;
 }
 
 main {
@@ -137,10 +142,6 @@ main {
   font-weight: normal;
   margin-bottom: 4vh;
   width: 550px;
-}
-
-#recommendations {
-  width: 55%;
 }
 
 i {
@@ -278,4 +279,44 @@ i {
 #btn-submit {
   font-weight: bold;
   font-size: 20px;
+}
+
+#recommendations {
+  width: 55%;
+}
+
+#blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.block {
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.block .text {
+  height: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.block .text .name {
+  color: black;
+}
+
+.block .text .description {
+  color: gray;
+}
+
+.block img {
+  width: 100%;
+  height: 60%;
 }
