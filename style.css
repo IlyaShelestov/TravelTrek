@@ -1,167 +1,174 @@
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
-    height: 100vh;
-    background: linear-gradient(to right, #04badaa4 5%, transparent 95%), url("./images/background.jpg");
-    background-size: cover;
+  height: 100vh;
+  background: linear-gradient(to right, #04badaa4 5%, transparent 95%),
+    url("./images/background.jpg");
+  background-size: cover;
 }
 
 nav {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 12px 0px;
-   background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #logo {
-    display: flex;
-    align-items: center;
-    width: 310px;
+  display: flex;
+  align-items: center;
+  width: 310px;
 }
 
 #logo h1 {
-    font-size: 40px;
-    padding: 10px;
-    border-width: 2px;
-    border-radius: 100px;
-    border-color: #04bada;
-    border-style: dashed;
-    font-weight: bold;
-    margin-right: 10px;
+  font-size: 40px;
+  padding: 10px;
+  border-width: 2px;
+  border-radius: 100px;
+  border-color: #04bada;
+  border-style: dashed;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 #logo h3 {
-    font-size: 25px;
-    font-style: oblique;
-    text-decoration: underline;
+  font-size: 25px;
+  font-style: oblique;
+  text-decoration: underline;
 }
 
 #nav {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    width: 350px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size: 23px;
+  text-decoration: none;
+  font-size: 23px;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    font-weight: bolder;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 #search {
-    background-color: white;
-    padding: 10px 15px;
-    border-radius: 20px;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+#empty-box {
+  width: 454px;
 }
 
 #search-input:focus {
-    outline: none;
+  outline: none;
 }
 
 #search-input {
-    width: 280px;
-    font-size: 17px;
-    border: none;
-    color: black;
+  width: 280px;
+  font-size: 17px;
+  border: none;
+  color: black;
 }
 
 .btn {
-    font-size: 15px;
-    padding: 10px 12px;
-    border-radius: 15px;
-    border-width: 2px;
-    border-color: white;
+  font-size: 15px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: white;
 }
 
 .btn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-cyan {
-    background-color: #019494;
+  background-color: #019494;
 }
 
 main {
-    display: flex;
-    height: 80vh;
+  display: flex;
+  height: 80vh;
 }
 
 #social {
-    width: 10%;
-    height: 100%;
+  width: 10%;
+  height: 100%;
 }
 
 #social ul {
-    padding-left: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 50%;
+  padding-left: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
 }
 
 #introduction {
-    width: 35%;
+  width: 35%;
 }
 
 #introduction h1 {
-    margin-top: 6vh;
-    font-size: 80px;
-    width: 50px;
+  margin-top: 6vh;
+  font-size: 80px;
+  width: 50px;
 }
 
 #introduction h3 {
-    margin-top: 4vh;
-    font-size: 24px;
-    line-height: 26px;
-    font-weight: normal;
-    margin-bottom: 4vh;
-    width: 550px;
+  margin-top: 4vh;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: normal;
+  margin-bottom: 4vh;
+  width: 550px;
 }
 
 #recommendations {
-    width: 55%;
+  width: 55%;
 }
 
 i {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .text-border {
-    color: transparent;
-    -webkit-text-stroke: 1px #c0faff;
+  color: transparent;
+  -webkit-text-stroke: 1px #c0faff;
 }
 
 #btn-book {
-    font-weight: bold;
-    font-size: 20px;
-    width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
 }
 
 #vertical-line {
-    background-color: black;
-    width: 2px;
-    height: 45%;
-    margin-left: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  background-color: black;
+  width: 2px;
+  height: 45%;
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .icon img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
